@@ -12,7 +12,7 @@ import rospy
 from PIL import Image
 import shutil
 
-bag = rosbag.Bag("_2018-08-28-19-51-55.bag", "r")
+bag = rosbag.Bag("_2018-08-29-20-32-42.bag", "r")
 messages = bag.read_messages(topics=["/pose"])
 num_images = bag.get_message_count(topic_filters=["/pose"])
 

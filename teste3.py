@@ -14,7 +14,7 @@ import shutil
 
 
 
-bag = rosbag.Bag("_2018-08-28-19-51-55.bag", "r")
+bag = rosbag.Bag("_2018-08-29-20-32-42.bag", "r")
 messages = bag.read_messages(topics=["/cmd_vel"])
 num_images = bag.get_message_count(topic_filters=["/cmd_vel"])
 
